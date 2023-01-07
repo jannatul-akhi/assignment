@@ -85,15 +85,65 @@
 
 }
 
+/* about */
+.about {
+    background: #7a777525;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.sec-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.sec-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+div ul {
+    display: flex;
+}
+
+div li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
 /* plan section */
 .my-plans {
     margin-left: 230px;
     margin-right: 230px;
+    margin-bottom: 130px;
 
 }
 
 .p-title {
-    padding-top: 215px;
+    padding-top: 130px;
     padding-bottom: 56px;
     font-weight: 700;
     font-size: 40px;
@@ -106,8 +156,6 @@
     justify-content: center;
     text-align: center;
 }
-
-.plan {}
 
 .plan-title {
     font-weight: 700;
@@ -124,14 +172,92 @@
     color: #737272;
 }
 
+
+
+/*gradient*/
 .gradient {
     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
-
-    padding-top: 130px;
+    padding: 70px 280px 70px 95px;
 }
 
 .grad {
     display: flex;
     justify-content: center;
+    margin-bottom: 130px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-prim {
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+
+    padding: 20px 25px;
+    border: 0;
+}
+
+/*footer*/
+.footer {
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    display: flex;
+    gap: 330px;
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+    padding-bottom: 24px;
+
+}
+
+.first-para {
+    padding-bottom: 24px;
+}
+
+.third-para {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.para {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 130px 0 130px 230px;
+
+}
+
+.subscribe {
+    padding: 130px 230px 240px 0;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.sub-email {
+    width: 325px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    margin-bottom: 16px;
+    padding-left: 16px;
+
 }
